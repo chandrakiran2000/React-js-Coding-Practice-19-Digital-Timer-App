@@ -1,0 +1,336 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1,
+      #defafe
+    );
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .digital-timer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .digital-timer-heading {
+    color: #0f172a;
+    font-size: 30px;
+    text-align: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .digital-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+  }
+  .time-card {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .digital-timer-text {
+    color: #00d9f5;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .timer-text {
+    color: #0f172a;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .start-pause-reset-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-card {
+    display: flex;
+    margin-bottom: -10px;
+  }
+
+  .start-pause-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .start-pause-img {
+    height: 30px;
+    margin-right: 8px;
+  }
+  .start-pause-text {
+    color: #0f172a;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .reset-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .reset-img {
+    height: 30px;
+    margin-right: 8px;
+  }
+  .reset-text {
+    color: #0f172a;
+    font-size: 20px;
+  }
+
+  .set-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .set-timer-text {
+    color: #1e293b;
+    font-size: 15px;
+  }
+  .timer-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+  }
+  .minus-btn {
+    color: #0f172a;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .number-text {
+    color: #0f172a;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    padding-top: 12px;
+    background-image: linear-gradient(to right, #3ef1be, #00d9f5);
+    background-color: #00d9f5;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .plus-btn {
+    color: #0f172a;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1,
+      #defafe
+    );
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    padding-right: 50px;
+    padding-left: 20px;
+  }
+  .digital-timer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .digital-timer-heading {
+    color: #0f172a;
+    font-size: 50px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .digital-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    height: 500px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+  }
+  .time-card {
+    background-color: #ffffff;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .digital-timer-text {
+    color: #00d9f5;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .timer-text {
+    color: #0f172a;
+    font-size: 20px;
+    margin-top: -15px;
+  }
+
+  .start-pause-reset-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin-top: 20px;
+  }
+  .btn-card {
+    display: flex;
+    margin-bottom: -20px;
+  }
+
+  .start-pause-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .start-pause-img {
+    height: 50px;
+    margin-right: 8px;
+  }
+  .start-pause-text {
+    color: #0f172a;
+    font-size: 25px;
+    margin-right: 8px;
+  }
+
+  .reset-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reset-img {
+    height: 50px;
+    margin-right: 8px;
+  }
+  .reset-text {
+    color: #0f172a;
+    font-size: 25px;
+  }
+
+  .set-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .set-timer-text {
+    color: #1e293b;
+    font-size: 20px;
+  }
+  .timer-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+  }
+  .minus-btn {
+    color: #0f172a;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .number-text {
+    color: #0f172a;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    padding-top: 16px;
+    background-image: linear-gradient(to right, #3ef1be, #00d9f5);
+    background-color: #00d9f5;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .plus-btn {
+    color: #0f172a;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
